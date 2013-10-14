@@ -111,6 +111,9 @@
         randomIndex --;
     }
     
+    /* Update your current index to the new random index */
+    self.currentIndex = randomIndex;
+    
     MBFDog *randomDog = [self.myDogs objectAtIndex:randomIndex];// Gets a randomDog from our arrayOfDogs
     
     // Set our UI elements to match the randomDog's properties

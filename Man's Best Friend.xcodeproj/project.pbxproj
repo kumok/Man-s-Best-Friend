@@ -133,10 +133,7 @@
 				6F37FF7417E87C53007943BE /* Main.storyboard */,
 				6F37FF7717E87C53007943BE /* MBFViewController.h */,
 				6F37FF7817E87C53007943BE /* MBFViewController.m */,
-				6F37FF9717E89623007943BE /* MBFDog.h */,
-				6F37FF9817E89623007943BE /* MBFDog.m */,
-				6F46D17017EF87C1009D39EA /* MBFPuppy.h */,
-				6F46D17117EF87C1009D39EA /* MBFPuppy.m */,
+				6F3DE2131805C3B6004825C6 /* Models */,
 				6F37FF7A17E87C53007943BE /* Images.xcassets */,
 				6F37FF6917E87C53007943BE /* Supporting Files */,
 			);
@@ -175,6 +172,17 @@
 				6F37FF8A17E87C53007943BE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F3DE2131805C3B6004825C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F37FF9717E89623007943BE /* MBFDog.h */,
+				6F37FF9817E89623007943BE /* MBFDog.m */,
+				6F46D17017EF87C1009D39EA /* MBFPuppy.h */,
+				6F46D17117EF87C1009D39EA /* MBFPuppy.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
